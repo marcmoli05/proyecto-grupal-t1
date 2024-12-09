@@ -7,18 +7,17 @@
   
   <ingredientes>
 
-    <ingrediente id=""><ingrediente>
-    <ingrediente id=""><ingrediente>
-    <ingrediente id=""><ingrediente>
-    <ingrediente id=""><ingrediente>
-    <ingrediente id=""><ingrediente>
-    <ingrediente id=""><ingrediente>
-    <ingrediente id=""><ingrediente>
-    <ingrediente id=""><ingrediente>
-    <ingrediente id=""><ingrediente>
-    <ingrediente id=""><ingrediente>
+    <ingrediente id="I1">huevos<ingrediente>
+    <ingrediente id="I2">sal<ingrediente>
+    <ingrediente id="I3">ahrina<ingrediente>
+    <ingrediente id="I4">pimienta<ingrediente>
+    <ingrediente id="I5">leche<ingrediente>
+    <ingrediente id="I6">queso<ingrediente>
+    <ingrediente id="I7">cebolla<ingrediente>
+    <ingrediente id="I8">azucar<ingrediente>
+    <ingrediente id="I9">tomates<ingrediente>
+    <ingrediente id="I10">aceite de oliva<ingrediente>
 
-  
   </ingredientes>
 
   <!--MARC MOLINA RECETAS--!>
