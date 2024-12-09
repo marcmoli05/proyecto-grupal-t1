@@ -1,3 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE recetas_cocina SYSTEM "recetas.dtd">
+
+<recetas_cocina>
+
+<!--MIGUEL CARDONA INGREDIENTES--!>
+  
+  <ingredientes>
+
+    <ingrediente id=""><ingrediente>
+    <ingrediente id=""><ingrediente>
+    <ingrediente id=""><ingrediente>
+    <ingrediente id=""><ingrediente>
+    <ingrediente id=""><ingrediente>
+    <ingrediente id=""><ingrediente>
+    <ingrediente id=""><ingrediente>
+    <ingrediente id=""><ingrediente>
+    <ingrediente id=""><ingrediente>
+    <ingrediente id=""><ingrediente>
+
+  
+  </ingredientes>
+
+  <!--MARC MOLINA RECETAS--!>
+  <receta id_receta="" dificultad="">
+
+    <recursos>
+  
+      <recurso ref_ingrediente="" cantidad="">
+      <recurso ref_ingrediente="" cantidad="">
+      <recurso ref_ingrediente="" cantidad="">
+      <recurso ref_ingrediente="" cantidad="">
+      <recurso ref_ingrediente="" cantidad="">
+  
+    </recursos>
+
+    <procedimientos>
+
+      <procedimiento numero=""></procedimiento>
+      <procedimiento numero=""></procedimiento>
+      <procedimiento numero=""></procedimiento>
+  
+    </procedmientos>
+  
+  </receta>
+  
 <recetas_cocina>
