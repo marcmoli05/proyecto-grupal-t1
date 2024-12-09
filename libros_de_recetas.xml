@@ -2,45 +2,75 @@
 <!DOCTYPE recetas_cocina SYSTEM "recetas.dtd">
 
 <recetas_cocina>
-
-<!--MIGUEL CARDONA INGREDIENTES--!>
   
   <ingredientes>
 
-    <ingrediente id="I1">huevos<ingrediente>
-    <ingrediente id="I2">sal<ingrediente>
-    <ingrediente id="I3">ahrina<ingrediente>
-    <ingrediente id="I4">pimienta<ingrediente>
-    <ingrediente id="I5">leche<ingrediente>
-    <ingrediente id="I6">queso<ingrediente>
-    <ingrediente id="I7">cebolla<ingrediente>
-    <ingrediente id="I8">azucar<ingrediente>
-    <ingrediente id="I9">tomates<ingrediente>
-    <ingrediente id="I10">aceite de oliva<ingrediente>
+    <ingrediente id="I1">arroz bomba<ingrediente>
+    <ingrediente id="I2">Caldo de Cocido<ingrediente>
+    <ingrediente id="I3">Panceta fresca lonchada<ingrediente>
+    <ingrediente id="I4">Morcilla de cebolla<ingrediente>
+    <ingrediente id="I5">Costillas de cerdo troceadas<ingrediente>
+    <ingrediente id="I6">Tomate<ingrediente>
+    <ingrediente id="I7">Patata<ingrediente>
+    <ingrediente id="I8">Garbanzos<ingrediente>
+    <ingrediente id="I9">Cabeza de ajos<ingrediente>
+    <ingrediente id="I10">Panceta<ingrediente>
+    <ingrediente id="I11">Queso Pecorino<ingrediente>
+    <ingrediente id="I12">Pimienta negra<ingrediente>
+    <ingrediente id="I13">Sal</ingrediente>
+    <ingrediente id="I14">Espaguetis</ingrediente>
 
   </ingredientes>
 
   <!--MARC MOLINA RECETAS--!>
-  <receta id_receta="" dificultad="">
+  <receta id_receta="1" dificultad="media" elaboracion="60" nombre="Arroz al horno">
 
     <recursos>
   
-      <recurso ref_ingrediente="" cantidad="">
-      <recurso ref_ingrediente="" cantidad="">
-      <recurso ref_ingrediente="" cantidad="">
-      <recurso ref_ingrediente="" cantidad="">
-      <recurso ref_ingrediente="" cantidad="">
+      <recurso ref_ingrediente="I1" cantidad="4 cacito">
+      <recurso ref_ingrediente="I2" cantidad="8 cacitos">
+      <recurso ref_ingrediente="I3" cantidad="2">
+      <recurso ref_ingrediente="I4" cantidad="2">
+      <recurso ref_ingrediente="I5" cantidad="250g">
+      <recurso ref_ingrediente="I6" cantidad="1">
+      <recurso ref_ingrediente="I7" cantidad="1">
+      <recurso ref_ingrediente="I8" cantidad="Un cuarto de paquete">
+      <recurso ref_ingrediente="I9" cantidad="1">
   
     </recursos>
 
     <procedimientos>
 
-      <procedimiento numero=""></procedimiento>
-      <procedimiento numero=""></procedimiento>
-      <procedimiento numero=""></procedimiento>
+      <procedimiento numero="1">Empezamos poniendo el caldo a calentar. Mientras tanto, lavamos, pelamos y cortamos en rodajas la patata, luego la doramos brevemente en una sartén y reservamos.</procedimiento>
+      <procedimiento numero="2">Si tenemos fuego a gas, colocamos la cazuela de barro sobre el fuego y ponemos a dorar la carne y la panceta troceada con un poco de aceite. Si no, lo hacemos en una sartén y luego lo añadiremos a la cazuela antes de hornear. Doramos también brevemente la morcilla y rehogamos el arroz y los garbanzos.</procedimiento>
+      <procedimiento numero="3">Antes de añadir el caldo, ajustamos de sal (hay quien añade azafrán o colorante para que coja color), distribuimos las rodajas de patata, colocamos una cabeza de ajo en el centro y ponemos un tomate partido por la mitad. También hay quien rehoga el tomate con un poco de pimentón o de tomate frito.</procedimiento>
+      <procedimiento numero="4">Por último vertemos el caldo y horneamos durante 19 minutos con el horno a 250 ºC. Recordad que la proporción de caldo es exactamente dos a uno. Es decir, dos partes de caldo por una de arroz. Antes de servir, dejamos que el arroz repose unos minutos tapado con un paño, para que acabe la cocción.</procedimiento> 
   
     </procedmientos>
   
   </receta>
   
+  <receta id_receta="2" dificultad="facil" elaboracion="12" nombre="Espaguetis a la carbonara>
+
+    <recursos>
+
+      <recurso ref_ingrediente="I10" cantidad="100g">
+      <recurso ref_ingrediente="I11" cantidad="50g">
+      <recurso ref_ingrediente="I12" cantidad="Al gusto">
+      <recurso ref_ingrediente="I13" cantidad="Al gusto">
+      <recurso ref_ingrediente="I14" cantidad="400g">
+
+    </recursos>
+
+    <procedimientos>
+
+      <procedimiento numero="1">No utilices bacon o bacon ahumado para hacer esta receta. Busca el auténtico guanciale italiano, hecho con la papada del cerdo y si no, utiliza en su lugar una buena panceta fresca, retirando la piel. Córtala en trocitos de pequeño tamaño y fríe esos trocitos hasta que comiencen a dorarse.</procedimiento>
+      <procedimiento numero="2">Por otro lado bate las 3 yemas de huevo con el huevo y el queso pecorino recién rallado hasta hacer una mezcla algo espesa. Dale unos toques de pimienta negra a esa mezcla. Entre tanto, pon la pasta a cocer en agua abundante con sal, y sácala cuando falten un par de minutos para que esté al dente.</procedimiento>
+      <procedimiento numero="3">En la sartén donde habíamos reservado la panceta o el guanciale salteado, agregaremos la pasta escurrida a la que añadimos la mezcla de huevos, queso y pimienta, mezclando bien. Agregamos también un cucharón del agua de cocción de la pasta.</procedimiento>
+      <procedimiento numero="4">Removemos mientras se van integrando los distintos ingredientes y se va haciendo una especie de salsa al cuajar ligeramente el huevo con el caldo caliente de la cocción. Servimos espolvoreando de un poco más de pecorino rallado y dando un par de vueltas más de pimienta molida.</procedimiento>
+
+    </procedimientos>
+
+  </receta>
+
 <recetas_cocina>
