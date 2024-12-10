@@ -1,25 +1,86 @@
-<!ELEMENT recetas_cocina (ingredientes, receta+)>
+<!ELEMENT cooking_for_all (usuarios, recetas_cocina)>
+<!ELEMENT usuarios (usuario+)>
+<!ELEMENT usuario (nombre, fecha_nacimiento)>
+<!ATTLIST usuario
+  id_user CDATA #REQUIRED
+  correo CDATA #REQUIRED
+  idioma_aplicacion CDATA #REQUIRED>
 
-<!ELEMENT ingredientes (ingrediente+)>
-<!ELEMENT ingrediente (#PCDATA)>
-<!ATTLIST ingrediente id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+
+<!ELEMENT recetas_cocina (ingredientes, receta+)>
+<!ELEMENT ingredientes (carnes?, lacteos?, cereales?, dulces?, verduras?, legumbres?, especias?, pastas?, caldos?, arroz?, hortalizas?, aceites?, salsas?)>
+
+<!ELEMENT carnes (carne*)>
+<!ELEMENT carne (#PCDATA)>
+<!ATTLIST carne id ID #REQUIRED>
+
+<!ELEMENT lacteos (lacteo*)>
+<!ELEMENT lacteo (#PCDATA)>
+<!ATTLIST lacteo id ID #REQUIRED>
+
+<!ELEMENT cereales (cereal*)>
+<!ELEMENT cereal (#PCDATA)>
+<!ATTLIST cereal id ID #REQUIRED>
+
+<!ELEMENT dulces (dulce*)>
+<!ELEMENT dulce (#PCDATA)>
+<!ATTLIST dulce id ID #REQUIRED>
+
+<!ELEMENT verduras (verdura*)>
+<!ELEMENT verdura (#PCDATA)>
+<!ATTLIST verdura id ID #REQUIRED>
+
+<!ELEMENT legumbres (legumbre*)>
+<!ELEMENT legumbre (#PCDATA)>
+<!ATTLIST legumbre id ID #REQUIRED>
+
+<!ELEMENT especias (especia*)>
+<!ELEMENT especia (#PCDATA)>
+<!ATTLIST especia id ID #REQUIRED>
+
+<!ELEMENT pastas (pasta*)>
+<!ELEMENT pasta (#PCDATA)>
+<!ATTLIST pasta id ID #REQUIRED>
+
+<!ELEMENT caldos (caldo*)>
+<!ELEMENT caldo (#PCDATA)>
+<!ATTLIST caldo id ID #REQUIRED>
+
+<!ELEMENT arroz (grano*)>
+<!ELEMENT grano (#PCDATA)>
+<!ATTLIST grano id ID #REQUIRED>
+
+<!ELEMENT hortalizas (hortaliza*)>
+<!ELEMENT hortaliza (#PCDATA)>
+<!ATTLIST hortaliza id ID #REQUIRED>
+
+<!ELEMENT aceites (aceite*)>
+<!ELEMENT aceite (#PCDATA)>
+<!ATTLIST aceite id ID #REQUIRED>
+
+<!ELEMENT salsas (salsa*)>
+<!ELEMENT salsa (#PCDATA)>
+<!ATTLIST salsa id ID #REQUIRED>
 
 <!ELEMENT receta (autor, nombre_receta, recursos, procedimientos)>
 <!ATTLIST receta
-    id_receta ID #REQUIRED
-    dificultad (facil|media|dificil) #REQUIRED
-    tiempo_elaboracion CDATA #REQUIRED>
+  id_receta CDATA #REQUIRED
+  dificultad (facil | media | dificil) #REQUIRED
+  tiempo_elaboracion CDATA #REQUIRED
+  tipo (entrante|principal|secundario|postre) #REQUIRED>
 
 <!ELEMENT autor (#PCDATA)>
-<!ELEMENT nombre_receta (#PCDATA)>
+<!ATTLIST autor ref_user IDREFS #IMPLIED>
 
-<!ELEMENT recursos (recurso+)>
+<!ELEMENT nombre_receta (#PCDATA)>
+<!ELEMENT recursos (recurso*)>
 <!ELEMENT recurso EMPTY>
 <!ATTLIST recurso
-    ref_ingrediente IDREF #REQUIRED
-    cantidad CDATA #REQUIRED>
+  ref_ingrediente IDREFS #REQUIRED
+  cantidad CDATA #REQUIRED>
 
 <!ELEMENT procedimientos (procedimiento+)>
 <!ELEMENT procedimiento (#PCDATA)>
-<!ATTLIST procedimiento
-    numero CDATA #REQUIRED>
+<!ATTLIST procedimiento numero CDATA #REQUIRED>

@@ -1,260 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE recetas_cocina SYSTEM "recetas.dtd">
+<!DOCTYPE cooking_for_all SYSTEM "recetas.dtd">
 
-<recetas_cocina>
-  
-  <ingredientes>
-  
-    <carnes>
+<cooking_for_all>
 
-      <ingrediente id="I3">Panceta fresca lonchada</ingrediente>
-      <ingrediente id="I4">Morcilla de cebolla</ingrediente>
-      <ingrediente id="I5">Costillas de cerdo</ingrediente>
-      <ingrediente id="I10">Panceta</ingrediente>
-      <ingrediente id="I11">Muslo de pollo</ingrediente>
+  <usuarios>
+
+    <usuario id_user="U1" correo="jose31@gmail.com" idioma_aplicacion="Inglés">
+      <nombre>jose31</nombre>
+      <fecha_nacimiento>12/09/1999</fecha_nacimiento>
+    </usuario>
+
+    <usuario id_user="U2" correo="mariagonzalez@gmail.com" idioma_aplicacion="Español">
+      <nombre>MariaGonzalez</nombre>
+      <fecha_nacimiento>10/10/2005</fecha_nacimiento>
+    </usuario>
+
+  </usuarios>
+
+  <recetas_cocina>
+
+    <ingredientes>
+
+      <carnes>
+
+        <carne id="I1">Panceta fresca lonchada</carne>
+        <carne id="I2">Morcilla de cebolla</carne>
+        <carne id="I3">Costillas de cerdo</carne>
+        <carne id="I4">Panceta</carne>
+        <carne id="I5">Muslo de pollo</carne>
+
+      </carnes>
+
+      <lacteos>
+
+        <lacteo id="I6">Queso Pecorino</lacteo>
+        <lacteo id="I7">Queso Parmesano</lacteo>
+        <lacteo id="I8">Queso Gorgonzola</lacteo>
+        <lacteo id="I9">Queso Roquefort</lacteo>
+        <lacteo id="I10">Leche Entera</lacteo>
+        <lacteo id="I11">Mantequilla</lacteo>
+        <lacteo id="I12">Cuajada</lacteo>
+      </lacteos>
+
+      <cereales>
+
+        <cereal id="I13">maiz</cereal>
+        <cereal id="I14">trigo</cereal>
+
+      </cereales>
+
+      <dulces>
+
+        <dulce id="I15">Azúcar</dulce>
+        <dulce id="I16">Chocolate</dulce>
+        <dulce id="I17">Miel</dulce>
+        <dulce id="I18">Canela</dulce>
+        <dulce id="I19">Vainilla</dulce>
+        <dulce id="I20">Galleta</dulce>
+        <dulce id="I21">Chocolate negro</dulce>
+        <dulce id="I22">Chocolate blanco</dulce>
+
+      </dulces>
+
+      <verduras>
+
+        <verdura id="I23">Tomates</verdura>
+        <verdura id="I24">Patatas</verdura>
+        <verdura id="I25">Ajo</verdura>
+        <verdura id="I26">Pimiento</verdura>
+
+      </verduras>
+
+      <legumbres>
+
+        <legumbre id="I27">Garbanzos</legumbre>
+        <legumbre id="I28">Lentejas</legumbre>
+        <legumbre id="I29">Judias</legumbre>
+        <legumbre id="I30">Alubias</legumbre>
+
+      </legumbres>
+
+      <especias>
+
+        <especia id="I31">Pimienta negra</especia>
+        <especia id="I32">Sal</especia>
+        <especia id="I33">Chile</especia>
+        <especia id="I34">Cebolla</especia>
+        <especia id="I35">Azafrán</especia>
+
+      </especias>
+
+      <pastas>
+
+        <pasta id="I36">Espaguetis</pasta>
+        <pasta id="I37">Macarrones</pasta>
+        <pasta id="I38">Fideos</pasta>
+        <pasta id="I39">Tallarines</pasta>
+        <pasta id="I40">Lazos</pasta>
+
+      </pastas>
+
+      <caldos>
+
+        <caldo id="I41">Caldo de Cocido</caldo>
+        <caldo id="I42">Caldo de Pollo</caldo>
+        <caldo id="I43">Caldo de Verduras</caldo>
+        <caldo id="I44">Caldo de Pescado</caldo>
+        <caldo id="I45">Caldo de Carne</caldo>
+        <caldo id="I46">Caldo de Jamón</caldo>
+
+      </caldos>
+
+      <arroz>
+
+        <grano id="I47">Arroz bomba</grano>
+        <grano id="I48">Arroz basmati</grano>
+        <grano id="I49">Arroz integral</grano>
+        <grano id="I50">Arroz salvaje</grano>
+        <grano id="I51">Arroz jazmin</grano>
+        <grano id="I53">Arroz vaporizado</grano>
+
+      </arroz>
+
+      <hortalizas>
+
+        <hortaliza id="I54">Tomate</hortaliza>
+        <hortaliza id="I55">Patata</hortaliza>
+        <hortaliza id="I56">Ajo</hortaliza>
+        <hortaliza id="I57">Pimiento</hortaliza>
+        <hortaliza id="I58">Chile</hortaliza>
+        <hortaliza id="I59">Cebolla</hortaliza>
+
+      </hortalizas>
+
+      <aceites>
+
+        <aceite id="I60">Aceite de oliva</aceite>
+        <aceite id="I61">Aceite de girasol</aceite>
+        <aceite id="I62">Aceite de soja</aceite>
+        <aceite id="I64">Aceite de maiz</aceite>
+        <aceite id="I65">Aceite de cacahuete</aceite>
+
+      </aceites>
+
+      <salsas>
+
+        <salsa id="I66">Salsa de tomate</salsa>
+        <salsa id="I67">Salsa de soja</salsa>
+        <salsa id="I68">Salsa picante</salsa>
+
+      </salsas>
+
+
+    </ingredientes>
+
+    <receta id_receta="R1" dificultad="media" tiempo_elaboracion="60 min" tipo="principal">
+
+      <autor>Maria Gonzalez</autor>
+
+      <nombre_receta>Arroz al horno</nombre_receta>
+
+      <recursos>
+    
+        <recurso ref_ingrediente="I1" cantidad="4 cacito"/>
+        <recurso ref_ingrediente="I2" cantidad="8 cacitos"/>
+        <recurso ref_ingrediente="I3" cantidad="2"/>
+        <recurso ref_ingrediente="I4" cantidad="2"/>
+        <recurso ref_ingrediente="I5" cantidad="250g"/>
+        <recurso ref_ingrediente="I6" cantidad="1"/>
+        <recurso ref_ingrediente="I7" cantidad="1"/>
+        <recurso ref_ingrediente="I8" cantidad="150g"/>
+        <recurso ref_ingrediente="I9" cantidad="1"/>
+    
+      </recursos>
+
+      <procedimientos>
+
+        <procedimiento numero="1">Empezamos poniendo el caldo a calentar. Mientras tanto, lavamos, pelamos y cortamos en rodajas la patata, luego la doramos brevemente en una sartén y reservamos</procedimiento>
+        <procedimiento numero="2">Si tenemos fuego a gas, colocamos la cazuela de barro sobre el fuego y ponemos a dorar la carne y la panceta troceada con un poco de aceite. Si no, lo hacemos en una sartén y luego lo añadiremos a la cazuela antes de hornear. Doramos también brevemente la morcilla y rehogamos el arroz y los garbanzos.</procedimiento>
+        <procedimiento numero="3">Antes de añadir el caldo, ajustamos de sal (hay quien añade azafrán o colorante para que coja color), distribuimos las rodajas de patata, colocamos una cabeza de ajo en el centro y ponemos un tomate partido por la mitad. También hay quien rehoga el tomate con un poco de pimentón o de tomate frito.</procedimiento>
+        <procedimiento numero="4">Por ultimo vertemos el caldo y horneamos durante 19 minutos con el horno a 250 ºC. Recordad que la proporción de caldo es exactamente dos a uno. Es decir, dos partes de caldo por una de arroz. Antes de servir, dejamos que el arroz repose unos minutos tapado con un paño, para que acabe la cocción.</procedimiento> 
+    
+      </procedimientos>
+    
+    </receta>
+    
+    <receta id_receta="R2" dificultad="facil" tiempo_elaboracion="12 min" tipo="principal">
+
+      <autor>jose31</autor>
       
-    </carnes>
+      <nombre_receta>Spaghetti a la Carbonara</nombre_receta>
 
-    <lacteos>
-
-      <ingrediente id="I11">Queso Pecorino</ingrediente>
-      <ingrediente id="I12">Queso Parmesano</ingrediente>
-      <ingrediente id="I13">Queso Gorgonzola</ingrediente>
-      <ingrediente id="I14">Queso Roquefort</ingrediente>
-      <ingrediente id="I15">Leche Entera</ingrediente>
-      <ingrediente id="I16">Mantequilla</ingrediente>
-      <ingrediente id="I17">Cuajada</ingrediente>
-
-    </lacteos>
-
-    <cereales>
-
-      <ingrediente id="I1">maiz</ingrediente>
-      <ingrediente id="I2">trigo</ingrediente>  
-
-    </cereales>
-    
-    <dulces>
-
-     <ingrediente id="I12">Azucar</ingrediente>
-     <ingrediente id="I13">Chocolate</ingrediente>
-     <ingrediente id="I14">Miel</ingrediente>
-     <ingrediente id="I15">Canela</ingrediente>
-     <ingrediente id="I16">Vainilla</ingrediente>
-     <ingrediente id="I17">Galleta</ingrediente>
-     <ingrediente id="I18">Chocolate negro</ingrediente>
-     <ingrediente id="I23">Chocolate blanco</ingrediente>
-
-    </dulces>
-   
-    <verduras>
-
-      <ingrediente id="I6">Tomates</ingrediente>
-      <ingrediente id="I7">Patatas</ingrediente>
-      <ingrediente id="I9">Ajo</ingrediente>
-      <ingrediente id="I10">Pimiento</ingrediente>
-
-    </verduras>
-
-    <legumbres>
-
-      <ingrediente id="I8">Garbanzos</ingrediente>
-      <ingrediente id="I9">Lentejas</ingrediente>
-      <ingrediente id="I10">Judias</ingrediente>
-      <ingrediente id="I11">Alubias</ingrediente>
-      <ingrediente id="I12">Guisantes</ingrediente>
-
-    </legumbres>
-
-    <especias>
-
-      <ingrediente id="I12">Pimienta negra</ingrediente>
-      <ingrediente id="I13">Sal</ingrediente>
-      <ingrediente id="I16">Chile</ingrediente>
-      <ingrediente id="I15">Cebolla</ingrediente>
-      <ingrediente id="I18">Azafrán</ingrediente>
-
-    </especias>
-
-    <pasta>
-
-      <ingrediente id="I14">Espaguetis</ingrediente>
-      <ingrediente id="I15">Macarrones</ingrediente>
-      <ingrediente id="I16">Fideos</ingrediente>
-      <ingrediente id="I17">Tallarines</ingrediente>
-      <ingrediente id="I18">Lazos</ingrediente>
-      <ingrediente id="I19">Raviolis</ingrediente>
-
-    </pasta>
-
-    <caldos>
-
-      <ingrediente id="I2">Caldo de Cocido</ingrediente>
-      <ingrediente id="I15">Caldo de Pollo</ingrediente>
-      <ingrediente id="I16">Caldo de Verduras</ingrediente>
-      <ingrediente id="I17">Caldo de Pescado</ingrediente>
-      <ingrediente id="I18">Caldo de Carne</ingrediente>
-      <ingrediente id="I19">Caldo de Jamón</ingrediente>
-
-    </caldos>
-
-    <arroz>
-
-      <ingrediente id="I1">Arroz bomba</ingrediente>
-      <ingrediente id="I15">Arroz basmati</ingrediente>
-      <ingrediente id="I16">Arroz integral</ingrediente>
-      <ingrediente id="I17">Arroz salvaje</ingrediente>
-      <ingrediente id="I18">Arroz jazmin</ingrediente>
-      <ingrediente id="I19">Arroz vaporizado</ingrediente>
-
-    </arroz>
-
-    <hortalizas>
-
-      <ingrediente id="I6">Tomate</ingrediente>
-      <ingrediente id="I7">Patata</ingrediente>
-      <ingrediente id="I9">Ajo</ingrediente>
-      <ingrediente id="I10">Pimiento</ingrediente>
-      <ingrediente id="I16">Chile</ingrediente>
-      <ingrediente id="I15">Cebolla</ingrediente>
-
-    </hortalizas>
-
-    <aceites>
-
-      <ingrediente id="I17">Aceite de oliva</ingrediente>
-      <ingrediente id="I18">Aceite de girasol</ingrediente>
-      <ingrediente id="I19">Aceite de soja</ingrediente>
-      <ingrediente id="I20">Aceite de maiz</ingrediente>
-      <ingrediente id="I21">Aceite de cacahuete</ingrediente>
-
-    </aceites>
-
-    <salsas>
-
-      <ingrediente id="I18">Salsa de tomate</ingrediente>
-      <ingrediente id="I19">Salsa de soja</ingrediente>
-      <ingrediente id="I20">Salsa picante</ingrediente>
-
-    </salsas>
-
-  </ingredientes>
-
-  <receta id_receta="R1" dificultad="media" tiempo_elaboracion="60 min" tipo="principal">
-
-    <autor>Maria Gonzalez</autor>
-
-    <nombre_receta>Arroz al horno</nombre_receta>
-
-    <recursos>
-  
-      <recurso ref_ingrediente="I1" cantidad="4 cacito"/>
-      <recurso ref_ingrediente="I2" cantidad="8 cacitos"/>
-      <recurso ref_ingrediente="I3" cantidad="2"/>
-      <recurso ref_ingrediente="I4" cantidad="2"/>
-      <recurso ref_ingrediente="I5" cantidad="250g"/>
-      <recurso ref_ingrediente="I6" cantidad="1"/>
-      <recurso ref_ingrediente="I7" cantidad="1"/>
-      <recurso ref_ingrediente="I8" cantidad="150g"/>
-      <recurso ref_ingrediente="I9" cantidad="1"/>
-  
-    </recursos>
-
-    <procedimientos>
-
-      <procedimiento numero="1">Empezamos poniendo el caldo a calentar. Mientras tanto, lavamos, pelamos y cortamos en rodajas la patata, luego la doramos brevemente en una sartén y reservamos</procedimiento>
-      <procedimiento numero="2">Si tenemos fuego a gas, colocamos la cazuela de barro sobre el fuego y ponemos a dorar la carne y la panceta troceada con un poco de aceite. Si no, lo hacemos en una sartén y luego lo añadiremos a la cazuela antes de hornear. Doramos también brevemente la morcilla y rehogamos el arroz y los garbanzos.</procedimiento>
-      <procedimiento numero="3">Antes de añadir el caldo, ajustamos de sal (hay quien añade azafrán o colorante para que coja color), distribuimos las rodajas de patata, colocamos una cabeza de ajo en el centro y ponemos un tomate partido por la mitad. También hay quien rehoga el tomate con un poco de pimentón o de tomate frito.</procedimiento>
-      <procedimiento numero="4">Por ultimo vertemos el caldo y horneamos durante 19 minutos con el horno a 250 ºC. Recordad que la proporción de caldo es exactamente dos a uno. Es decir, dos partes de caldo por una de arroz. Antes de servir, dejamos que el arroz repose unos minutos tapado con un paño, para que acabe la cocción.</procedimiento> 
-  
-    </procedimientos>
-  
-  </receta>
-  
-  <receta id_receta="R2" dificultad="facil" tiempo_elaboracion="12 min" tipo="principal">
-
-    <autor>jose31</autor>
-    
-    <nombre_receta>Spaghetti a la Carbonara</nombre_receta>
-
-    <recursos>
-
-      <recurso ref_ingrediente="I10" cantidad="100g"/>
-      <recurso ref_ingrediente="I11" cantidad="50g"/>
-      <recurso ref_ingrediente="I12" cantidad="Al gusto"/>
-      <recurso ref_ingrediente="I13" cantidad="Al gusto"/>
-      <recurso ref_ingrediente="I14" cantidad="400g"/>
-
-    </recursos>
-
-    <procedimientos>
-
-      <procedimiento numero="1">No utilices bacon o bacon ahumado para hacer esta receta. Busca el autentico guanciale italiano, hecho con la papada del cerdo y si no, utiliza en su lugar una buena panceta fresca, retirando la piel. Córtala en trocitos de pequeño tamaño y frIe esos trocitos hasta que comiencen a dorarse.</procedimiento>
-      <procedimiento numero="2">Por otro lado bate las 3 yemas de huevo con el huevo y el queso pecorino recien rallado hasta hacer una mezcla algo espesa. Dale unos toques de pimienta negra a esa mezcla. Entre tanto, pon la pasta a cocer en agua abundante con sal, y sacala cuando falten un par de minutos para que estE al dente.</procedimiento>
-      <procedimiento numero="3">En la sartEn donde habIamos reservado la panceta o el guanciale salteado, agregaremos la pasta escurrida a la que añadimos la mezcla de huevos, queso y pimienta, mezclando bien. Agregamos también un cucharón del agua de coccion de la pasta.</procedimiento>
-      <procedimiento numero="4">Removemos mientras se van integrando los distintos ingredientes y se va haciendo una especie de salsa al cuajar ligeramente el huevo con el caldo caliente de la coccion. Servimos espolvoreando de un poco más de pecorino rallado y dando un par de vueltas mAs de pimienta molida.</procedimiento>
-
-    </procedimientos>
-
-  </receta>
-
-  <receta id_receta="R3" dificultad="media" tiempo_elaboracion="15m" picante="si" tipo="principal/acompañante">
-
-    <autor>JesusMX69</autor>
-
-    <nombre_receta>Tacos picantes</nombre_receta>
-
-    <recursos>
-
-      <recurso ref_ingrediente="I10" cantidad="4"/>
-      <recurso ref_ingrediente="I15" cantidad="4"/>
-      <recurso ref_ingrediente="I6" cantidad="4"/>
-      <recurso ref_ingrediente="I17"/>
-      <recurso ref_ingrediente="I16" cantidad="400g"/>
-      <recurso ref_ingrediente="I20" cantidad="Al gusto"/>
-
-    </recursos>
-
-    <procedimientos>
-
-      <procedimiento numero="1">Poner al fuego el aceite de oliva y le echas todo bien picadito y chiquitito por este orden: la cebolla, los pimientos y los tomates.</procedimiento>
-      <procedimiento numero="2">Preparar el pollo (sacar la piel) y picarlo chiquito y se echa a la sartén, luego, la sal, la pimienta, el aji molido y el picante tacconi. </procedimiento>
-      <procedimiento numero="3">Se sirven calientes en creps bimbo</procedimiento>
-
-    </procedimientos>
-
-  </receta>
-
-  <receta id_receta="R4" dificultad="facil" tiempo_elaboracion="15m" tipo="postre">
-  
-      <autor>MariaJs</autor>
-  
-      <nombre_receta>Tarta de chocolate</nombre_receta>
-  
       <recursos>
 
-        <recurso ref_ingrediente="I17" cantidad="200g"/>
-        <recurso ref_ingrediente="I16" cantidad="100g"/>
-        <recurso ref_ingrediente="I18" cantidad="250g"/>
-        <recurso ref_ingrediente="I15" cantidad="1L"/>
-        <recurso ref_ingrediente="I17" cantidad="2 sobres"/>
-        <recurso ref_ingrediente="I12" cantidad="50g"/>
-        <recurso ref_ingrediente="I23" cantidad="100g"/>
+        <recurso ref_ingrediente="I10" cantidad="100g"/>
+        <recurso ref_ingrediente="I11" cantidad="50g"/>
+        <recurso ref_ingrediente="I12" cantidad="Al gusto"/>
+        <recurso ref_ingrediente="I13" cantidad="Al gusto"/>
+        <recurso ref_ingrediente="I14" cantidad="400g"/>
 
       </recursos>
-  
+
       <procedimientos>
-  
-        <procedimiento numero="1">Trituramos las galletas dentro de una bolsa de plástico bien cerrada y pasando por encima un rodillo.</procedimiento>
-        <procedimiento numero="2">Agregamos la mantequilla a temperatura ambiente o, incluso mejor, ligeramente fundida.</procedimiento>
-        <procedimiento numero="3">Mezclamos bien para obtener una masa homogénea.</procedimiento>
-        <procedimiento numero="4">Cubrimos la base y laterales de un molde desmoldable de 25 cm, aplastando bien para compactar, y guardamos en la nevera o congelador para que endurezca.</procedimiento>
-        <procedimiento numero="5">Mientras tanto preparamos el relleno. Picamos el chocolate y lo calentamos en un cacito junto con la leche, los dos sobres de cuajada y el azúcar durante 10 minutos. </procedimiento>
-        <procedimiento numero="6">Vertemos la mezcla en el molde y dejamos enfriar a temperatura ambiente. Luego guardamos en la nevera durante 4 horas.</procedimiento>
-        <procedimiento numero="7">Removemos bien para que no queden grumos. Vertemos sobre la base de galletas y dejamos cuajar en la nevera durante cuatro horas aproximadamente. Con un pelador hacemos virutas de chocolate blanco y decoramos la tarta en el momento de servir.</procedimiento>
+
+        <procedimiento numero="1">No utilices bacon o bacon ahumado para hacer esta receta. Busca el autentico guanciale italiano, hecho con la papada del cerdo y si no, utiliza en su lugar una buena panceta fresca, retirando la piel. Córtala en trocitos de pequeño tamaño y frIe esos trocitos hasta que comiencen a dorarse.</procedimiento>
+        <procedimiento numero="2">Por otro lado bate las 3 yemas de huevo con el huevo y el queso pecorino recien rallado hasta hacer una mezcla algo espesa. Dale unos toques de pimienta negra a esa mezcla. Entre tanto, pon la pasta a cocer en agua abundante con sal, y sacala cuando falten un par de minutos para que estE al dente.</procedimiento>
+        <procedimiento numero="3">En la sartEn donde habIamos reservado la panceta o el guanciale salteado, agregaremos la pasta escurrida a la que añadimos la mezcla de huevos, queso y pimienta, mezclando bien. Agregamos también un cucharón del agua de coccion de la pasta.</procedimiento>
+        <procedimiento numero="4">Removemos mientras se van integrando los distintos ingredientes y se va haciendo una especie de salsa al cuajar ligeramente el huevo con el caldo caliente de la coccion. Servimos espolvoreando de un poco más de pecorino rallado y dando un par de vueltas mAs de pimienta molida.</procedimiento>
 
       </procedimientos>
 
-  </receta>
+    </receta>
 
-</recetas_cocina>
+  </recetas_cocina>
+
+</cooking_for_all>
