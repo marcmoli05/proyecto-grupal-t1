@@ -1,30 +1,30 @@
-<!ELEMENT recetas_cocina (ingredientes, receta, procedimientos)>
+<!ELEMENT recetas_cocina (ingredientes, receta)>
 <!ELEMENT ingredientes (ingrediente+)>
-<!ELEMENT ingredientes (#PCDATA)>
-
 <!ELEMENT ingrediente (#PCDATA)>
+
 <!ATTLIST ingrediente
         id ID #REQUIRED>
 
-<!ELEMENT receta (#PCDATA)>
+<!ELEMENT receta (autor, nombre_receta, recursos, procedimientos)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT nombre_receta (#PCDATA)>
+<!ELEMENT recursos (recurso+)>
+<!ELEMENT recurso (#PCDATA)>
+<!ELEMENT procedimientos (procedimiento+)>
+
+<!ATTLIST recurso
+        ref_ingrediente IDREFS #REQUIRED
+        cantidad CDATA #REQUIRED>
+
 <!ATTLIST receta
         id_receta ID #REQUIRED
         dificultad CDATA #REQUIRED
-        tiempo_elaboracion CDATA #REQUIRED
->
+        tiempo_elaboracion CDATA #REQUIRED>
 
-<!ELEMENT autor (#PCDATA)>
-<!ELEMENT nombre_receta (#PCDATA)>
-<!ELEMENT nombre_receta (#PCDATA)>
 
-<!ELEMENT recursos (recurso+)>
-<!ELEMENT recursos (#PCDATA)>
 
 <!ELEMENT recurso (#PCDATA)>
-<!ATTLIST recurso
-        ref_ingrediente ID #REQUIRED
-        cantidad CDATA #REQUIRED
->
+
 
 <!ELEMENT procedimientos (procedimiento+)>
 <!ELEMENT procedimientos (#PCDATA)>
