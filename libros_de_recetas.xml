@@ -5,43 +5,42 @@
   
   <ingredientes>
 
-    <ingrediente id="I1">arroz bomba<ingrediente>
-    <ingrediente id="I2">Caldo de Cocido<ingrediente>
-    <ingrediente id="I3">Panceta fresca lonchada<ingrediente>
-    <ingrediente id="I4">Morcilla de cebolla<ingrediente>
-    <ingrediente id="I5">Costillas de cerdo troceadas<ingrediente>
-    <ingrediente id="I6">Tomate<ingrediente>
-    <ingrediente id="I7">Patata<ingrediente>
-    <ingrediente id="I8">Garbanzos<ingrediente>
-    <ingrediente id="I9">Cabeza de ajos<ingrediente>
-    <ingrediente id="I10">Panceta<ingrediente>
-    <ingrediente id="I11">Queso Pecorino<ingrediente>
-    <ingrediente id="I12">Pimienta negra<ingrediente>
+    <ingrediente id="I1">arroz bomba</ingrediente>
+    <ingrediente id="I2">Caldo de Cocido</ingrediente>
+    <ingrediente id="I3">Panceta fresca lonchada</ingrediente>
+    <ingrediente id="I4">Morcilla de cebolla</ingrediente>
+    <ingrediente id="I5">Costillas de cerdo troceadas</ingrediente>
+    <ingrediente id="I6">Tomate</ingrediente>
+    <ingrediente id="I7">Patata</ingrediente>
+    <ingrediente id="I8">Garbanzos</ingrediente>
+    <ingrediente id="I9">Cabeza de ajos<i/ngrediente>
+    <ingrediente id="I10">Panceta</ingrediente>
+    <ingrediente id="I11">Queso Pecorino</ingrediente>
+    <ingrediente id="I12">Pimienta negra</ingrediente>
     <ingrediente id="I13">Sal</ingrediente>
     <ingrediente id="I14">Espaguetis</ingrediente>
 
   </ingredientes>
 
-  <!--MARC MOLINA RECETAS--!>
-  <receta id_receta="1" dificultad="media" elaboracion="60" nombre="Arroz al horno">
+  <receta nombre="Arroz al horno" id_receta="1" dificultad="media" elaboracion="60 min">
 
     <recursos>
   
-      <recurso ref_ingrediente="I1" cantidad="4 cacito">
-      <recurso ref_ingrediente="I2" cantidad="8 cacitos">
-      <recurso ref_ingrediente="I3" cantidad="2">
-      <recurso ref_ingrediente="I4" cantidad="2">
-      <recurso ref_ingrediente="I5" cantidad="250g">
-      <recurso ref_ingrediente="I6" cantidad="1">
-      <recurso ref_ingrediente="I7" cantidad="1">
-      <recurso ref_ingrediente="I8" cantidad="Un cuarto de paquete">
-      <recurso ref_ingrediente="I9" cantidad="1">
+      <recurso ref_ingrediente="I1" cantidad="4 cacito"/>
+      <recurso ref_ingrediente="I2" cantidad="8 cacitos"/>
+      <recurso ref_ingrediente="I3" cantidad="2"/>
+      <recurso ref_ingrediente="I4" cantidad="2"/>
+      <recurso ref_ingrediente="I5" cantidad="250g"/>
+      <recurso ref_ingrediente="I6" cantidad="1"/>
+      <recurso ref_ingrediente="I7" cantidad="1"/>
+      <recurso ref_ingrediente="I8" cantidad="150g"/>
+      <recurso ref_ingrediente="I9" cantidad="1"/>
   
     </recursos>
 
     <procedimientos>
 
-      <procedimiento numero="1">Empezamos poniendo el caldo a calentar. Mientras tanto, lavamos, pelamos y cortamos en rodajas la patata, luego la doramos brevemente en una sartén y reservamos.</procedimiento>
+      <procedimiento numero="1">Empezamos poniendo el caldo a calentar. Mientras tanto, lavamos, pelamos y cortamos en rodajas la patata, luego la doramos brevemente en una sartén y reservamos</procedimiento>
       <procedimiento numero="2">Si tenemos fuego a gas, colocamos la cazuela de barro sobre el fuego y ponemos a dorar la carne y la panceta troceada con un poco de aceite. Si no, lo hacemos en una sartén y luego lo añadiremos a la cazuela antes de hornear. Doramos también brevemente la morcilla y rehogamos el arroz y los garbanzos.</procedimiento>
       <procedimiento numero="3">Antes de añadir el caldo, ajustamos de sal (hay quien añade azafrán o colorante para que coja color), distribuimos las rodajas de patata, colocamos una cabeza de ajo en el centro y ponemos un tomate partido por la mitad. También hay quien rehoga el tomate con un poco de pimentón o de tomate frito.</procedimiento>
       <procedimiento numero="4">Por último vertemos el caldo y horneamos durante 19 minutos con el horno a 250 ºC. Recordad que la proporción de caldo es exactamente dos a uno. Es decir, dos partes de caldo por una de arroz. Antes de servir, dejamos que el arroz repose unos minutos tapado con un paño, para que acabe la cocción.</procedimiento> 
