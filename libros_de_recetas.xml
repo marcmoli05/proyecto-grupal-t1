@@ -30,8 +30,8 @@
 
     <recursos>
   
-      <recurso ref_ingrediente="I1" cantidad="4 cacito"/>
-      <recurso ref_ingrediente="I2" cantidad="8 cacitos"/>
+      <recurso ref_ingrediente="I1" cantidad="120ml"/>
+      <recurso ref_ingrediente="I2" cantidad="240ml"/>
       <recurso ref_ingrediente="I3" cantidad="2"/>
       <recurso ref_ingrediente="I4" cantidad="2"/>
       <recurso ref_ingrediente="I5" cantidad="250g"/>
