@@ -2,7 +2,7 @@
 <!ELEMENT usuarios (usuario+)>
 <!ELEMENT usuario (nombre, fecha_nacimiento)>
 <!ATTLIST usuario
-  id_user CDATA #REQUIRED
+  id_user ID #REQUIRED
   correo CDATA #REQUIRED
   idioma_aplicacion CDATA #REQUIRED>
 

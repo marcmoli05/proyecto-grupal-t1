@@ -156,7 +156,7 @@
 
     <receta id_receta="R1" dificultad="media" tiempo_elaboracion="60 min" tipo="principal">
 
-      <autor>Maria Gonzalez</autor>
+      <autor ref_user="U1"/>
 
       <nombre_receta>Arroz al horno</nombre_receta>
 
@@ -187,7 +187,7 @@
     
     <receta id_receta="R2" dificultad="facil" tiempo_elaboracion="12 min" tipo="principal">
 
-      <autor>jose31</autor>
+      <autor ref_user="U2"/>
       
       <nombre_receta>Spaghetti a la Carbonara</nombre_receta>
 
