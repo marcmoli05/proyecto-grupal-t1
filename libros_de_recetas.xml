@@ -6,14 +6,17 @@
   <ingredientes>
   
     <carnes>
+
       <ingrediente id="I3">Panceta fresca lonchada</ingrediente>
       <ingrediente id="I4">Morcilla de cebolla</ingrediente>
       <ingrediente id="I5">Costillas de cerdo</ingrediente>
       <ingrediente id="I10">Panceta</ingrediente>
       <ingrediente id="I11">Muslo de pollo</ingrediente>
+      
     </carnes>
 
     <lacteos>
+
       <ingrediente id="I11">Queso Pecorino</ingrediente>
       <ingrediente id="I12">Queso Parmesano</ingrediente>
       <ingrediente id="I13">Queso Gorgonzola</ingrediente>
@@ -21,14 +24,18 @@
       <ingrediente id="I15">Leche Entera</ingrediente>
       <ingrediente id="I16">Mantequilla</ingrediente>
       <ingrediente id="I17">Cuajada</ingrediente>
+
     </lacteos>
 
     <cereales>
+
       <ingrediente id="I1">maiz</ingrediente>
       <ingrediente id="I2">trigo</ingrediente>  
+
     </cereales>
     
     <dulces>
+
      <ingrediente id="I12">Azucar</ingrediente>
      <ingrediente id="I13">Chocolate</ingrediente>
      <ingrediente id="I14">Miel</ingrediente>
@@ -37,79 +44,98 @@
      <ingrediente id="I17">Galleta</ingrediente>
      <ingrediente id="I18">Chocolate negro</ingrediente>
      <ingrediente id="I23">Chocolate blanco</ingrediente>
+
     </dulces>
    
     <verduras>
+
       <ingrediente id="I6">Tomates</ingrediente>
       <ingrediente id="I7">Patatas</ingrediente>
       <ingrediente id="I9">Ajo</ingrediente>
       <ingrediente id="I10">Pimiento</ingrediente>
+
     </verduras>
 
     <legumbres>
+
       <ingrediente id="I8">Garbanzos</ingrediente>
       <ingrediente id="I9">Lentejas</ingrediente>
       <ingrediente id="I10">Judias</ingrediente>
       <ingrediente id="I11">Alubias</ingrediente>
       <ingrediente id="I12">Guisantes</ingrediente>
+
     </legumbres>
 
     <especias>
+
       <ingrediente id="I12">Pimienta negra</ingrediente>
       <ingrediente id="I13">Sal</ingrediente>
       <ingrediente id="I16">Chile</ingrediente>
       <ingrediente id="I15">Cebolla</ingrediente>
       <ingrediente id="I18">Azafrán</ingrediente>
+
     </especias>
 
     <pasta>
+
       <ingrediente id="I14">Espaguetis</ingrediente>
       <ingrediente id="I15">Macarrones</ingrediente>
       <ingrediente id="I16">Fideos</ingrediente>
       <ingrediente id="I17">Tallarines</ingrediente>
       <ingrediente id="I18">Lazos</ingrediente>
       <ingrediente id="I19">Raviolis</ingrediente>
+
     </pasta>
 
     <caldos>
+
       <ingrediente id="I2">Caldo de Cocido</ingrediente>
       <ingrediente id="I15">Caldo de Pollo</ingrediente>
       <ingrediente id="I16">Caldo de Verduras</ingrediente>
       <ingrediente id="I17">Caldo de Pescado</ingrediente>
       <ingrediente id="I18">Caldo de Carne</ingrediente>
       <ingrediente id="I19">Caldo de Jamón</ingrediente>
+
     </caldos>
 
     <arroz>
+
       <ingrediente id="I1">Arroz bomba</ingrediente>
       <ingrediente id="I15">Arroz basmati</ingrediente>
       <ingrediente id="I16">Arroz integral</ingrediente>
       <ingrediente id="I17">Arroz salvaje</ingrediente>
       <ingrediente id="I18">Arroz jazmin</ingrediente>
       <ingrediente id="I19">Arroz vaporizado</ingrediente>
+
     </arroz>
 
     <hortalizas>
+
       <ingrediente id="I6">Tomate</ingrediente>
       <ingrediente id="I7">Patata</ingrediente>
       <ingrediente id="I9">Ajo</ingrediente>
       <ingrediente id="I10">Pimiento</ingrediente>
       <ingrediente id="I16">Chile</ingrediente>
       <ingrediente id="I15">Cebolla</ingrediente>
+
     </hortalizas>
 
     <aceites>
+
       <ingrediente id="I17">Aceite de oliva</ingrediente>
       <ingrediente id="I18">Aceite de girasol</ingrediente>
       <ingrediente id="I19">Aceite de soja</ingrediente>
       <ingrediente id="I20">Aceite de maiz</ingrediente>
       <ingrediente id="I21">Aceite de cacahuete</ingrediente>
+
     </aceites>
 
     <salsas>
+
       <ingrediente id="I18">Salsa de tomate</ingrediente>
       <ingrediente id="I19">Salsa de soja</ingrediente>
       <ingrediente id="I20">Salsa picante</ingrediente>
+
     </salsas>
 
   </ingredientes>
@@ -179,12 +205,14 @@
     <nombre_receta>Tacos picantes</nombre_receta>
 
     <recursos>
+
       <recurso ref_ingrediente="I10" cantidad="4"/>
       <recurso ref_ingrediente="I15" cantidad="4"/>
       <recurso ref_ingrediente="I6" cantidad="4"/>
       <recurso ref_ingrediente="I17"/>
       <recurso ref_ingrediente="I16" cantidad="400g"/>
       <recurso ref_ingrediente="I20" cantidad="Al gusto"/>
+
     </recursos>
 
     <procedimientos>
@@ -204,6 +232,7 @@
       <nombre_receta>Tarta de chocolate</nombre_receta>
   
       <recursos>
+
         <recurso ref_ingrediente="I17" cantidad="200g"/>
         <recurso ref_ingrediente="I16" cantidad="100g"/>
         <recurso ref_ingrediente="I18" cantidad="250g"/>
@@ -211,6 +240,7 @@
         <recurso ref_ingrediente="I17" cantidad="2 sobres"/>
         <recurso ref_ingrediente="I12" cantidad="50g"/>
         <recurso ref_ingrediente="I23" cantidad="100g"/>
+
       </recursos>
   
       <procedimientos>
@@ -222,6 +252,8 @@
         <procedimiento numero="5">Mientras tanto preparamos el relleno. Picamos el chocolate y lo calentamos en un cacito junto con la leche, los dos sobres de cuajada y el azúcar durante 10 minutos. </procedimiento>
         <procedimiento numero="6">Vertemos la mezcla en el molde y dejamos enfriar a temperatura ambiente. Luego guardamos en la nevera durante 4 horas.</procedimiento>
         <procedimiento numero="7">Removemos bien para que no queden grumos. Vertemos sobre la base de galletas y dejamos cuajar en la nevera durante cuatro horas aproximadamente. Con un pelador hacemos virutas de chocolate blanco y decoramos la tarta en el momento de servir.</procedimiento>
+
+      </procedimientos>
 
   </receta>
 
