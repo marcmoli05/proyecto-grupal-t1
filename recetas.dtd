@@ -2,6 +2,7 @@
 <!ELEMENT ingredientes (ingrediente+)>
 <!ELEMENT ingrediente (#PCDATA)>
 
+
 <!ATTLIST ingrediente
         id ID #REQUIRED>
 
@@ -17,6 +18,7 @@
         ref_ingrediente IDREFS #REQUIRED
         cantidad CDATA #REQUIRED>
 
+<!ELEMENT receta (#PCDATA)>
 <!ATTLIST receta
         id_receta ID #REQUIRED
         dificultad (facil|media|dificil) #REQUIRED
