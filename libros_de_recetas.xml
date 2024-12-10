@@ -49,11 +49,11 @@
       <procedimiento numero="3">Antes de añadir el caldo, ajustamos de sal (hay quien añade azafrán o colorante para que coja color), distribuimos las rodajas de patata, colocamos una cabeza de ajo en el centro y ponemos un tomate partido por la mitad. También hay quien rehoga el tomate con un poco de pimentón o de tomate frito.</procedimiento>
       <procedimiento numero="4">Por ultimo vertemos el caldo y horneamos durante 19 minutos con el horno a 250 ºC. Recordad que la proporción de caldo es exactamente dos a uno. Es decir, dos partes de caldo por una de arroz. Antes de servir, dejamos que el arroz repose unos minutos tapado con un paño, para que acabe la cocción.</procedimiento> 
   
-    </procedimentos>
+    </procedimientos>
   
   </receta>
   
-  <receta id_receta="2" dificultad="facil" elaboracion="12 min">
+  <receta id_receta="R2" dificultad="facil" tiempo_elaboracion="12 min">
 
     <autor>jose31</autor>
     
@@ -61,11 +61,11 @@
 
     <recursos>
 
-      <recurso ref_ingrediente="I10" cantidad="100g">
-      <recurso ref_ingrediente="I11" cantidad="50g">
-      <recurso ref_ingrediente="I12" cantidad="Al gusto">
-      <recurso ref_ingrediente="I13" cantidad="Al gusto">
-      <recurso ref_ingrediente="I14" cantidad="400g">
+      <recurso ref_ingrediente="I10" cantidad="100g"/>
+      <recurso ref_ingrediente="I11" cantidad="50g"/>
+      <recurso ref_ingrediente="I12" cantidad="Al gusto"/>
+      <recurso ref_ingrediente="I13" cantidad="Al gusto"/>
+      <recurso ref_ingrediente="I14" cantidad="400g"/>
 
     </recursos>
 
