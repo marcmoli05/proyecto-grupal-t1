@@ -19,13 +19,14 @@
     <ingrediente id="I12">Pimienta negra</ingrediente>
     <ingrediente id="I13">Sal</ingrediente>
     <ingrediente id="I14">Espaguetis</ingrediente>
-    <ingrediente id="I15">Espaguetis</ingrediente>
 
   </ingredientes>
 
   <receta id_receta="1" dificultad="media" tiempo_elaboracion="60 min">
 
-    <nombre>Arroz al horno</nombre>
+    <autor>Maria Gonzalez</autor>
+
+    <nombre_receta>Arroz al horno</nombre_receta>
 
     <recursos>
   
@@ -52,7 +53,11 @@
   
   </receta>
   
-  <receta id_receta="2" dificultad="facil" elaboracion="12" nombre="Espaguetis a la carbonara>
+  <receta id_receta="2" dificultad="facil" elaboracion="12 min">
+
+    <autor>jose31</autor>
+    
+    <nombre_receta></nombre_receta>
 
     <recursos>
 
