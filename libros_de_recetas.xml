@@ -4,6 +4,7 @@
 <recetas_cocina>
   
   <ingredientes>
+  
     <carnes>
       <ingrediente id="I3">Panceta fresca lonchada</ingrediente>
       <ingrediente id="I4">Morcilla de cebolla</ingrediente>
@@ -98,17 +99,17 @@
     </hortalizas>
 
     <aceites>
-    <ingrediente id="I17">Aceite de oliva</ingrediente>
-    <ingrediente id="I18">Aceite de girasol</ingrediente>
-    <ingrediente id="I19">Aceite de soja</ingrediente>
-    <ingrediente id="I20">Aceite de maiz</ingrediente>
-    <ingrediente id="I21">Aceite de cacahuete</ingrediente>
+      <ingrediente id="I17">Aceite de oliva</ingrediente>
+      <ingrediente id="I18">Aceite de girasol</ingrediente>
+      <ingrediente id="I19">Aceite de soja</ingrediente>
+      <ingrediente id="I20">Aceite de maiz</ingrediente>
+      <ingrediente id="I21">Aceite de cacahuete</ingrediente>
     </aceites>
 
     <salsas>
-    <ingrediente id="I18">Salsa de tomate</ingrediente>
-    <ingrediente id="I19">Salsa de soja</ingrediente>
-    <ingrediente id="I20">Salsa picante</ingrediente>
+      <ingrediente id="I18">Salsa de tomate</ingrediente>
+      <ingrediente id="I19">Salsa de soja</ingrediente>
+      <ingrediente id="I20">Salsa picante</ingrediente>
     </salsas>
 
   </ingredientes>
