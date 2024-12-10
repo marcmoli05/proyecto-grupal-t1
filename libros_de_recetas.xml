@@ -23,7 +23,7 @@
 
   </ingredientes>
 
-  <receta id_receta="1" dificultad="media" elaboracion="60 min">
+  <receta id_receta="1" dificultad="media" tiempo_elaboracion="60 min">
 
     <nombre>Arroz al horno</nombre>
 
