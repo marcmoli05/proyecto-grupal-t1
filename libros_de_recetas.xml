@@ -5,20 +5,33 @@
   
   <ingredientes>
 
-    <ingrediente id="I1">Arroz bomba</ingrediente>
-    <ingrediente id="I2">Caldo de Cocido</ingrediente>
-    <ingrediente id="I3">Panceta fresca lonchada</ingrediente>
-    <ingrediente id="I4">Cebolla</ingrediente>
-    <ingrediente id="I5">Costillas de cerdo troceadas</ingrediente>
-    <ingrediente id="I6">Tomates</ingrediente>
-    <ingrediente id="I7">Patatas</ingrediente>
-    <ingrediente id="I8">Garbanzos</ingrediente>
-    <ingrediente id="I9">Cabeza de ajos<i/ngrediente>
+    
+    <cereales>
+      <ingrediente id="I1">Arroz bomba</ingrediente>
+    </cereales>
+
+    <caldos>
+      <ingrediente id="I2">Caldo de Cocido</ingrediente>
+    </caldos>
+
+    <carnes>
+      <ingrediente id="I3">Panceta fresca lonchada</ingrediente>
+      <ingrediente id="I4">Morcilla de cebolla</ingrediente>
+      <ingrediente id="I5">Costillas de cerdo</ingrediente>
+    </carnes>
+
+    <vegetales
+      <ingrediente id="I6">Tomates</ingrediente>
+      <ingrediente id="I7">Patatas</ingrediente>
+      <ingrediente id="I8">Garbanzos</ingrediente>
+      <ingrediente id="I9">Ajo<ingrediente>
+    </vegetales>
     <ingrediente id="I10">Panceta</ingrediente>
     <ingrediente id="I11">Queso Pecorino</ingrediente>
     <ingrediente id="I12">Pimienta negra</ingrediente>
     <ingrediente id="I13">Sal</ingrediente>
     <ingrediente id="I14">Espaguetis</ingrediente>
+    <ingrediente id="I15">Espaguetis</ingrediente>
 
   </ingredientes>
 
