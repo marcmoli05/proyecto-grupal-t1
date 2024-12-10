@@ -13,7 +13,7 @@
     <ingrediente id="I6">Tomates</ingrediente>
     <ingrediente id="I7">Patatas</ingrediente>
     <ingrediente id="I8">Garbanzos</ingrediente>
-    <ingrediente id="I9">Ajo<ingrediente>
+    <ingrediente id="I9">Ajo</ingrediente>
     <ingrediente id="I10">Panceta</ingrediente>
     <ingrediente id="I11">Queso Pecorino</ingrediente>
     <ingrediente id="I12">Pimienta negra</ingrediente>
@@ -22,7 +22,7 @@
 
   </ingredientes>
 
-  <receta id_receta="1" dificultad="media" tiempo_elaboracion="60 min">
+  <receta id_receta="R1" dificultad="media" tiempo_elaboracion="60 min">
 
     <autor>Maria Gonzalez</autor>
 
@@ -30,8 +30,8 @@
 
     <recursos>
   
-      <recurso ref_ingrediente="I1" cantidad="120ml"/>
-      <recurso ref_ingrediente="I2" cantidad="240ml"/>
+      <recurso ref_ingrediente="I1" cantidad="4 cacito"/>
+      <recurso ref_ingrediente="I2" cantidad="8 cacitos"/>
       <recurso ref_ingrediente="I3" cantidad="2"/>
       <recurso ref_ingrediente="I4" cantidad="2"/>
       <recurso ref_ingrediente="I5" cantidad="250g"/>
@@ -47,9 +47,9 @@
       <procedimiento numero="1">Empezamos poniendo el caldo a calentar. Mientras tanto, lavamos, pelamos y cortamos en rodajas la patata, luego la doramos brevemente en una sartén y reservamos</procedimiento>
       <procedimiento numero="2">Si tenemos fuego a gas, colocamos la cazuela de barro sobre el fuego y ponemos a dorar la carne y la panceta troceada con un poco de aceite. Si no, lo hacemos en una sartén y luego lo añadiremos a la cazuela antes de hornear. Doramos también brevemente la morcilla y rehogamos el arroz y los garbanzos.</procedimiento>
       <procedimiento numero="3">Antes de añadir el caldo, ajustamos de sal (hay quien añade azafrán o colorante para que coja color), distribuimos las rodajas de patata, colocamos una cabeza de ajo en el centro y ponemos un tomate partido por la mitad. También hay quien rehoga el tomate con un poco de pimentón o de tomate frito.</procedimiento>
-      <procedimiento numero="4">Por último vertemos el caldo y horneamos durante 19 minutos con el horno a 250 ºC. Recordad que la proporción de caldo es exactamente dos a uno. Es decir, dos partes de caldo por una de arroz. Antes de servir, dejamos que el arroz repose unos minutos tapado con un paño, para que acabe la cocción.</procedimiento> 
+      <procedimiento numero="4">Por ultimo vertemos el caldo y horneamos durante 19 minutos con el horno a 250 ºC. Recordad que la proporción de caldo es exactamente dos a uno. Es decir, dos partes de caldo por una de arroz. Antes de servir, dejamos que el arroz repose unos minutos tapado con un paño, para que acabe la cocción.</procedimiento> 
   
-    </procedmientos>
+    </procedimentos>
   
   </receta>
   
@@ -57,7 +57,7 @@
 
     <autor>jose31</autor>
     
-    <nombre_receta>Spaghetti a la Carbonara</nombre_receta>
+    <nombre_receta></nombre_receta>
 
     <recursos>
 
@@ -71,10 +71,10 @@
 
     <procedimientos>
 
-      <procedimiento numero="1">No utilices bacon o bacon ahumado para hacer esta receta. Busca el auténtico guanciale italiano, hecho con la papada del cerdo y si no, utiliza en su lugar una buena panceta fresca, retirando la piel. Córtala en trocitos de pequeño tamaño y fríe esos trocitos hasta que comiencen a dorarse.</procedimiento>
-      <procedimiento numero="2">Por otro lado bate las 3 yemas de huevo con el huevo y el queso pecorino recién rallado hasta hacer una mezcla algo espesa. Dale unos toques de pimienta negra a esa mezcla. Entre tanto, pon la pasta a cocer en agua abundante con sal, y sácala cuando falten un par de minutos para que esté al dente.</procedimiento>
-      <procedimiento numero="3">En la sartén donde habíamos reservado la panceta o el guanciale salteado, agregaremos la pasta escurrida a la que añadimos la mezcla de huevos, queso y pimienta, mezclando bien. Agregamos también un cucharón del agua de cocción de la pasta.</procedimiento>
-      <procedimiento numero="4">Removemos mientras se van integrando los distintos ingredientes y se va haciendo una especie de salsa al cuajar ligeramente el huevo con el caldo caliente de la cocción. Servimos espolvoreando de un poco más de pecorino rallado y dando un par de vueltas más de pimienta molida.</procedimiento>
+      <procedimiento numero="1">No utilices bacon o bacon ahumado para hacer esta receta. Busca el autentico guanciale italiano, hecho con la papada del cerdo y si no, utiliza en su lugar una buena panceta fresca, retirando la piel. Córtala en trocitos de pequeño tamaño y frIe esos trocitos hasta que comiencen a dorarse.</procedimiento>
+      <procedimiento numero="2">Por otro lado bate las 3 yemas de huevo con el huevo y el queso pecorino recien rallado hasta hacer una mezcla algo espesa. Dale unos toques de pimienta negra a esa mezcla. Entre tanto, pon la pasta a cocer en agua abundante con sal, y sacala cuando falten un par de minutos para que estE al dente.</procedimiento>
+      <procedimiento numero="3">En la sartEn donde habIamos reservado la panceta o el guanciale salteado, agregaremos la pasta escurrida a la que añadimos la mezcla de huevos, queso y pimienta, mezclando bien. Agregamos también un cucharón del agua de coccion de la pasta.</procedimiento>
+      <procedimiento numero="4">Removemos mientras se van integrando los distintos ingredientes y se va haciendo una especie de salsa al cuajar ligeramente el huevo con el caldo caliente de la coccion. Servimos espolvoreando de un poco más de pecorino rallado y dando un par de vueltas mAs de pimienta molida.</procedimiento>
 
     </procedimientos>
 
