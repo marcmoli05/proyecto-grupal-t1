@@ -11,6 +11,7 @@
 <!ELEMENT recursos (recurso+)>
 <!ELEMENT recurso (#PCDATA)>
 <!ELEMENT procedimientos (procedimiento+)>
+<!ELEMENT procedimiento (#PCDATA)>
 
 <!ATTLIST recurso
         ref_ingrediente IDREFS #REQUIRED
@@ -18,14 +19,5 @@
 
 <!ATTLIST receta
         id_receta ID #REQUIRED
-        dificultad CDATA #REQUIRED
+        dificultad (facil|media|dificil) #REQUIRED
         tiempo_elaboracion CDATA #REQUIRED>
-
-
-
-<!ELEMENT recurso (#PCDATA)>
-
-
-<!ELEMENT procedimientos (procedimiento+)>
-<!ELEMENT procedimientos (#PCDATA)>
-<!ELEMENT procedimiento (#PCDATA)>
