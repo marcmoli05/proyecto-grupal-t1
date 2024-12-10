@@ -1,1 +1,1 @@
-<!ELEMENT recetas_cocina (ingredientes, ingrediente, receta, recursos, procedimientos)>
+<!ELEMENT recetas_cocina (ingredientes, receta, procedimientos)>
